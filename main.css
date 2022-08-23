@@ -10,7 +10,7 @@
     font-family: helvetica;
   }
 li {
-    list-style: circle;
+    list-style: numbers;
   }
   
   .list {
@@ -54,3 +54,35 @@ li {
     --btnBg: var(--white);
     --btnFontColor: var(--black);
   }
+  
+  H2 { color: red }
+  li {
+    border: 2px solid navy;
+    padding: 30px;
+  }
+  p {
+   
+    margin: 50px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+    font-family: helvetica;
+    font-weight: bold;
+    font-weight: 900;
+}
+img {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  height: auto;
+  }
+
+
+ 
